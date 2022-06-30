@@ -1,0 +1,21 @@
+jQuery:
+jQuery is a JS single file library that is used to develop Dynamic web content like JS. It is designed to make "Write less, do more " feature. 
+Features that used to take lot of coding in regular JS can be achieved with very less code using jQuery. jQuery is used mainly to work on DOM and Ajax calls.
+jquery is nothing but JS, it comes with set of APIs that U can use in JS. 
+jQUery lib can be downloaded from its website. U can also allow the app to download while in production instead of you maintaining it. This is called CDN(Content delivery Network)
+
+$ means the jQUery library. It takes the arg of a selector. here document is the selector which means, it is refering to the document of the web page. When the page is loaded into the browser, an event called ready happens. This happens once and only once when the Page is ready for JS code to execute. When ready, it expects an event handler. This is done using a callback function mechanism. The ready function will take an arguement of the function name that it has to execute when the document is ready. 
+$(document) is same as $(). Implicitly the jQuery selector takes document as its default selector if not mentioned.   
+
+Different selectors of jQuery:
+By element Name: It refers to all elements of the name in the document. 
+By Id: U refer the element by Id using a prefix #.
+By ClassName: U refer the elements of a certain class by prefixing . with their names
+
+There are 3 ways U can show and hide contents in jQuery.
+hide and show method.
+fadeOut and fadeIn
+slideDown and slideUp: the height property will be reduced slowly and finally set its height property to 0. toggle feature will do the opposite of the current status(either up or down)
+
+fadeIn feature and hiding feature are similar. The fadeIn feature will animate the opacity property of the element for a specific duration and when the opacity becomes 0, it will remove the object, 
+hide and show will animate the size property of the element and once the size becomes 0 it will hide or show the element. 
